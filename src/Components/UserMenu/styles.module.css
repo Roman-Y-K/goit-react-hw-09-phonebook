@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.activeLink {
+  color: antiquewhite;
+}
+
+.userMenu {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.userName {
+  margin-right: 5px;
+}
